@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #2a2121;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.country-card {
+    display: inline-block;
+    width: 45%;
+    margin: 10px;
+    text-align: center;
+    border: 1px solid #2a2121;
+    border-radius: 5px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.flag {
+    width: 100%;
+    max-width: 150px;
+    display: block;
+    margin: 0 auto 10px;
+}
